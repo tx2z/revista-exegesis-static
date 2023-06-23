@@ -1,0 +1,757 @@
+html, body {
+    background: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+@media all and (max-width: 970px) {
+  .desktop {
+    display: none;
+  }
+}
+@media all and (min-width: 970px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/*
+ * Load animation - http://one-div.com/
+ */
+#loading {
+  background: black;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.animatedload {
+  width: 100px;
+  height: 100px;
+  background: orange;
+
+  margin: 100px auto;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+     -moz-animation: rotateplane 1.2s infinite ease-in-out;
+          animation: rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+@-moz-keyframes rotateplane {
+  0% { -moz-transform: perspective(120px) }
+  50% { -moz-transform: perspective(120px) rotateY(180deg) }
+  100% { -moz-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  } 50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+  } 100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+/* Google Fonts */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oxygen Light'), local('Oxygen-Light'), url(http://themes.googleusercontent.com/static/fonts/oxygen/v3/AwBqWF2kjhlybWamaKMPcT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+
+/*
+ * Icons - http://icomoon.io/
+ */
+@font-face {
+  font-family: 'icomoon';
+  src: url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAAQ4AAsAAAAABnAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAABCAAAARgAAAGoxWpZ80ZGVE0AAAIgAAAAGgAAABxl/nKKR0RFRgAAAjwAAAAcAAAAIAAyAARPUy8yAAACWAAAAEsAAABgL9zcQGNtYXAAAAKkAAAAPQAAAVLgFPLNaGVhZAAAAuQAAAAuAAAANv2URBVoaGVhAAADFAAAAB4AAAAkBBD/5GhtdHgAAAM0AAAAEAAAABAEAAAgbWF4cAAAA0QAAAAGAAAABgAFUABuYW1lAAADTAAAAN4AAAGGUNPz8HBvc3QAAAQsAAAADAAAACAAAwAAeJxljb1KxFAQhWeyNyYsIavLTVCI0cLKNNEHsBC0sXQrK0GbRdyAxGfwZ7AQU2mhlY3v4Av4KHmAXEgw3smfgs3MOcOc8yEIAYhoz8+SyyRZABqAsKc2DLU5UquCnBE5IhzD2vG0JhqEY9GFylRqBvA4CQCWA3heCcAO8G0KS9xhwwR8WIctiK4X88M4jvU6GNZOu3Y7bo8HwBu8xTu8BxPRcLafvl1SqagylVnuh5JepGa5Vc3Kf8otUlHDw/lJDVevn3q8vGt7ut/ftK1Z1Y3il9byy98bJ5oCrUIl/VIWkqJSEh1pQZHpqqxIvS7TpNtaTg+UDs+qbWTb1v7eeh5nw0r6hdSYnClfzMsZJckjZ/wDDN+083icY2BgYGQAgpOd+YYg+pxV4xoYDQBB8wZeAAB4nGNgZGBg4ANiCQYQYGJgBEIWMAbxGAAEdgA3eJxjYGZiYJzAwMrAwejDmMbAwOAOpb8ySDK0MDAwMbAyM8CBAILJEJDmmsLg8IDhAwPjg/8PGPQYHzAoNDAwMMIVKAAhIwAQQgwfAHicY2BgYGaAYBkGRgYQ8AHyGMF8FgYDIM0BhEwgiQdMHxj+/wezGCAsBSYBRqguMGBkY0DmjkgAAMuoCLAAAAB4nGNgZGBgAGJToyff4vltvjJwMzGAwDmrxjUI+v8DJgbGB0AuBwNYGgA5agsmAAB4nGNgZGBgfPD/AYMeEwMDwz8GIAkUQQHMAG3nA/YAAAIAAAAAAAAAAgAAIAAAAAAAAFAAAAUAAHicdY4xagMxEEXf2muH4BBShZSCNGl2WSmN8QH2ACncGyOWBdsC2QafJFWOkDLHyAFyhBwj3+tpUlgw6M3Xn/kC7nin4HwKbngwHolfjMc8czIupX8aT5jxbTyV/itnUd5KuR+mzjwSPxmPaWmMS+kfxhMe+TKeSv+hZ01iq0rsoF+nbUqCNyIdRzasyGpjd9ysBO3gOwx3liPiCNRKcyxU//ddtICnYq4K8nletSbtDm3KXXShbtzCWa4o+GpehcbLdO1vS6Vm9nq/ZPghn2XM+147fN1cnf0DAoU51wAAeJxjYGbACwAAfQAE) format('woff'),
+     url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-menu, .icon-arrow-right, .icon-arrow-left {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-menu:before {
+  content: "\e000";
+}
+.icon-arrow-right:before {
+  content: "\e001";
+}
+.icon-arrow-left:before {
+  content: "\e002";
+}
+
+/*
+ * Generics
+ */
+a#menu {
+    color: orange;
+    font-size: 40px;
+    height: 50px;
+    left: -20px;
+    opacity: 1;
+    position: absolute;
+    text-decoration: none;
+    text-shadow: 0 0 5px #000000;
+    top: 0;
+    width: 60px;
+    z-index: 4;
+}
+
+/* Pagination */
+.pagination .page_link {
+    background: rgba(0,0,0,0); /* IE hack */
+    border-color: rgba(0,0,0,0);
+    color: rgba(0,0,0,0.7);
+    cursor: pointer;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 50px;
+    z-index: 3;
+    -webkit-transition: opacity 0.5s ease-out;
+       -moz-transition: opacity 0.5s ease-out;
+         -o-transition: opacity 0.5s ease-out;
+            transition: opacity 0.5s ease-out;
+}
+.pagination .page_link .arrow_icon {
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -15px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 50px;
+}
+@media all and (min-width: 970px) {
+  .pagination .page_link:hover {
+      background: rgba(255,255,255,0.3);
+      border-color: rgba(0,0,0,0.7);
+      opacity: 1;
+  }
+}
+.pagination .page_link.disabled {
+    background: rgba(0,0,0,0); /* IE hack */
+    cursor: default;
+}
+.pagination #next_page.page_link {
+    border-left-style: solid;
+    border-left-width: 5px;
+    right: 0;
+}
+.pagination #prev_page.page_link {
+    border-right-style: solid;
+    border-right-width: 5px;
+    left: 0;
+}
+
+/*
+ * Page efects - http://tympanus.net/Development/PageTransitions/
+ */
+.pt-perspective {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+}
+
+.pt-page {
+    background: black;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.pt-page-current,
+.no-js .pt-page {
+    visibility: visible;
+}
+
+.no-js body {
+    overflow: auto;
+}
+
+.pt-page-ontop {
+    z-index: 2;
+}
+/* rotate sides first and scale */
+.pt-page-moveFromLeft {
+    -webkit-animation: moveFromLeft .5s ease-out both;
+    -moz-animation: moveFromLeft .5s ease-out both;
+    animation: moveFromLeft .5s ease-out both;
+    opacity: 1;
+}
+.pt-page-moveFromRight {
+    -webkit-animation: moveFromRight .5s ease-out both;
+    -moz-animation: moveFromRight .5s ease-out both;
+    animation: moveFromRight .5s ease-out both;
+    opacity: 1;
+}
+.pt-page-rotateRightSideFirst {
+    -webkit-animation: removeFromRight .3s ease-in both;
+    -moz-animation: removeFromRight .3s ease-in both;
+    animation: removeFromRight .3s ease-in both;
+    opacity: 1;
+}
+.pt-page-rotateLeftSideFirst {
+    -webkit-animation: removeFromLeft .3s ease-in both;
+    -moz-animation: removeFromLeft .3s ease-in both;
+    animation: removeFromLeft .3s ease-in both;
+    opacity: 1;
+}
+@-webkit-keyframes moveFromLeft {
+    from { -webkit-transform: translateX(-100%); opacity: 0;}
+}
+@-moz-keyframes moveFromLeft {
+    from { -moz-transform: translateX(-100%); opacity: 0;}
+}
+@keyframes moveFromLeft {
+    from { transform: translateX(-100%); opacity: 0;}
+}
+@-webkit-keyframes moveFromRight {
+    from { -webkit-transform: translateX(100%); opacity: 0;}
+}
+@-moz-keyframes moveFromRight {
+    from { -moz-transform: translateX(100%); opacity: 0;}
+}
+@keyframes moveFromRight {
+    from { transform: translateX(100%); opacity: 0;}
+}
+
+@-webkit-keyframes removeFromLeft {
+    to { -webkit-transform: translateX(100%); opacity: 0;}
+}
+@-moz-keyframes removeFromLeft {
+    to { -moz-transform: translateX(100%); opacity: 0;}
+}
+@keyframes removeFromLeft {
+    to { transform: translateX(100%); opacity: 0;}
+}
+@-webkit-keyframes removeFromRight {
+    to { -webkit-transform: translateX(-100%); opacity: 0;}
+}
+@-moz-keyframes removeFromRight {
+    to { -moz-transform: translateX(-100%); opacity: 0;}
+}
+@keyframes removeFromRight {
+    to { transform: translateX(-100%); opacity: 0;}
+}
+
+.pt-page-scaleUp {
+  -webkit-animation: scaleUp .7s ease both;
+  -moz-animation: scaleUp .7s ease both;
+  animation: scaleUp .7s ease both;
+}
+.pt-page-scaleDownUp {
+  -webkit-animation: scaleDownUp .5s ease both;
+  -moz-animation: scaleDownUp .5s ease both;
+  animation: scaleDownUp .5s ease both;
+}
+@-webkit-keyframes scaleUp {
+  from { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleUp {
+  from { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleUp {
+  from { opacity: 0; transform: scale(.8); }
+}
+@-webkit-keyframes scaleDownUp {
+  to { opacity: 0; -webkit-transform: scale(1.2); }
+}
+@-moz-keyframes scaleDownUp {
+  to { opacity: 0; -moz-transform: scale(1.2); }
+}
+@keyframes scaleDownUp {
+  to { opacity: 0; transform: scale(1.2); }
+}
+
+.pt-page-delay200 {
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    animation-delay: .2s;
+}
+.pt-page-delay300 {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+/*
+ * Menu - http://www.berriart.com/sidr/
+ */
+
+.sidr {
+  /* Default Settings */
+  display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 4;
+  width: 260px;
+  overflow-x: none;
+  overflow-y: auto;
+  /* Theme Settings */
+  font-family: 'Open Sans',sans-serif;
+  font-size: 15px;
+  background: #F9F9F9;
+  color: #464646;
+  /*-webkit-box-shadow: inset 0 0 5px 5px #222222;
+  -moz-box-shadow: inset 0 0 5px 5px #222222;
+  box-shadow: inset 0 0 5px 5px #222222;*/
+
+  /*text-shadow: 0 0 5px #000;*/
+}
+.sidr .sidr-inner {
+  padding: 0 0 15px;
+}
+.sidr .sidr-inner > p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.sidr.right {
+  left: auto;
+  right: -260px;
+}
+.sidr.left {
+  left: -260px;
+  right: auto;
+}
+.sidr #logo_exegesis {
+  padding: 20px 10px;
+  background: black;
+  border-bottom: solid 5px orange;
+}
+.sidr #logo_exegesis img {
+  width:100%;
+}
+.sidr h1 {
+  color: #0080C0;
+  font-family: 'Oxygen',sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  padding: 0 5px;
+  margin: 10px 0;
+}
+.sidr h2 {
+  color: #0080C0;
+  font-family: 'Oxygen',sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 5px;
+  margin: 10px 0;
+}
+.sidr h3, .sidr h4, .sidr h5, .sidr h6 {
+  font-family: 'Oxygen',sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0 15px;
+  margin: 0;
+  line-height: 24px;
+}
+.sidr p {
+  font-size: 13px;
+  margin-bottom: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.sidr p a {
+  color: #0080C0;
+}
+.sidr p strong {
+  font-family: 'Oxygen',sans-serif;;
+}
+.sidr ul {
+  display: block;
+  margin: 0 0 15px;
+  padding: 0;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #4d4d4d;
+}
+.sidr ul li {
+  display: block;
+  margin: 0;
+  line-height: 48px;
+  border-top: 1px solid #4d4d4d;
+  border-bottom: 1px solid #1a1a1a;
+}
+.sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active {
+  border-top: none;
+  line-height: 49px;
+}
+.sidr ul li:hover > a, .sidr ul li:hover > span, .sidr ul li.active > a, .sidr ul li.active > span, .sidr ul li.sidr-class-active > a, .sidr ul li.sidr-class-active > span {
+  -webkit-box-shadow: inset 0 0 15px 3px #222222;
+  -moz-box-shadow: inset 0 0 15px 3px #222222;
+  box-shadow: inset 0 0 15px 3px #222222;
+}
+.sidr ul li a, .sidr ul li span {
+  padding: 0 15px;
+  display: block;
+  text-decoration: none;
+  color: #0080C0;
+}
+.sidr ul li ul {
+  border-bottom: none;
+  margin: 0;
+}
+.sidr ul li ul li {
+  line-height: 40px;
+  font-size: 13px;
+}
+.sidr ul li ul li:last-child {
+  border-bottom: none;
+}
+.sidr ul li ul li:hover, .sidr ul li ul li.active, .sidr ul li ul li.sidr-class-active {
+  border-top: none;
+  line-height: 41px;
+}
+.sidr ul li ul li:hover > a, .sidr ul li ul li:hover > span, .sidr ul li ul li.active > a, .sidr ul li ul li.active > span, .sidr ul li ul li.sidr-class-active > a, .sidr ul li ul li.sidr-class-active > span {
+  -webkit-box-shadow: inset 0 0 15px 3px #222222;
+  -moz-box-shadow: inset 0 0 15px 3px #222222;
+  box-shadow: inset 0 0 15px 3px #222222;
+}
+.sidr ul li ul li a, .sidr ul li ul li span {
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 30px;
+}
+.sidr form {
+  margin: 0 15px;
+}
+.sidr label {
+  font-size: 13px;
+}
+.sidr input[type="text"],
+.sidr input[type="password"],
+.sidr input[type="date"],
+.sidr input[type="datetime"],
+.sidr input[type="email"],
+.sidr input[type="number"],
+.sidr input[type="search"],
+.sidr input[type="tel"],
+.sidr input[type="time"],
+.sidr input[type="url"],
+.sidr textarea, .sidr select {
+  width: 100%;
+  font-size: 13px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  clear: both;
+}
+.sidr input[type=button],
+.sidr input[type=submit] {
+  color: #333333;
+  background: white;
+}
+.sidr input[type=button]:hover,
+.sidr input[type=submit]:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.sidr input#page_number {
+  background-color: white;
+  color: #333;
+  display: inline-block;
+  width: 30px;
+}
+
+/* ------------------------------------------
+CSS TOGGLE SWITCHES (Ionuț Colceriu)
+Licensed under Unlicense
+https://github.com/ghinda/css-toggle-switch
+------------------------------------------ */
+
+/* Hide by default */
+
+.switch .slide-button,
+.toggle p span {
+  display: none;
+}
+
+/* Toggle Switches */
+
+/* We can't test for a specific feature,
+ * so we only target browsers with support for media queries.
+ */
+@media only screen {
+
+  /* Radio Switch
+   */
+  .switch {
+    position: relative;
+    padding: 0;
+  }
+
+  .switch input {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .switch label {
+    position: relative;
+    z-index: 2;
+
+    float: left;
+    width: 50%;
+    height: 100%;
+
+    margin: 0;
+    text-align: center;
+  }
+
+  .switch .slide-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 1;
+
+    width: 50%;
+    height: 100%;
+  }
+
+  .switch input:last-of-type:checked ~ .slide-button {
+    left: 50%;
+  }
+  .switch input:checked + label {
+    color: white;
+  }
+
+  /* Switch with 3 items */
+  .switch.switch-three label,
+  .switch.switch-three .slide-button {
+    width: 33.3%;
+  }
+
+  .switch.switch-three input:checked:nth-of-type(2) ~ .slide-button {
+    left: 33.3%;
+  }
+
+  .switch.switch-three input:checked:last-of-type ~ .slide-button {
+    left: 66.6%;
+  }
+
+  /* Switch with 4 items */
+  .switch.switch-four label,
+  .switch.switch-four .slide-button {
+    width: 25%;
+  }
+
+  .switch.switch-four input:checked:nth-of-type(2) ~ .slide-button {
+    left: 25%;
+  }
+
+  .switch.switch-four input:checked:nth-of-type(3) ~ .slide-button {
+    left: 50%;
+  }
+
+  .switch.switch-four input:checked:last-of-type ~ .slide-button {
+    left: 75%;
+  }
+
+  /* Switch with 5 items */
+  .switch.switch-five label,
+  .switch.switch-five .slide-button {
+    width: 20%;
+  }
+
+  .switch.switch-five input:checked:nth-of-type(2) ~ .slide-button {
+    left: 20%;
+  }
+
+  .switch.switch-five input:checked:nth-of-type(3) ~ .slide-button {
+    left: 40%;
+  }
+
+  .switch.switch-five input:checked:nth-of-type(4) ~ .slide-button {
+    left: 60%;
+  }
+
+  .switch.switch-five input:checked:last-of-type ~ .slide-button {
+    left: 80%;
+  }
+
+  /* Shared */
+  .toggle,
+  .switch {
+    display: block;
+    height: 30px;
+  }
+
+  .switch *,
+  .toggle * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .switch .slide-button,
+  .toggle .slide-button {
+    display: block;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+
+  .toggle label,
+  .toggle p,
+  .switch label {
+    line-height: 30px;
+    vertical-align: middle;
+    /*text-shadow: 0 0 5px #333;*/
+  }
+
+  .toggle input:checked ~ .slide-button {
+    right: 50%;
+  }
+
+  /* Outline the toggles when the inputs are focused */
+  .toggle input:focus ~ .slide-button,
+  .switch input:focus + label {
+    /*outline: 1px dotted #888;*/
+  }
+
+  /* Bugfix for older Webkit, including mobile Webkit. Adapted from:
+   * http://css-tricks.com/webkit-sibling-bug/
+   */
+  .switch, .toggle {
+    -webkit-animation: bugfix infinite 1s;
+  }
+
+  @-webkit-keyframes bugfix { from { position: relative; } to { position: relative; } }
+
+  /* Android Theme
+   * Based on Holo
+   */
+
+  .android {
+    background-color: white;
+    color: #464646;
+  }
+
+  .android.toggle {
+    border: 2px solid #b6b6b6;
+  }
+
+  .android.switch {
+    overflow: hidden;
+  }
+
+  .android.switch .slide-button {
+    background-color: #0080C0;
+    /*box-shadow: 0 0 5px #000000;*/
+
+    -webkit-transform: skew(20deg) translateX(10px);
+    -moz-transform: skew(20deg) translateX(10px);
+    -ms-transform: skew(20deg) translateX(10px);
+    transform: skew(20deg) translateX(10px);
+  }
+
+  .android.toggle .slide-button {
+    border-radius: 2px;
+    background-color: #848484;
+  }
+
+  /* Selected ON toggle */
+  .android.toggle input:first-of-type:checked ~ .slide-button {
+    background-color: #0080C0;
+  }
+
+  .android.switch input:first-of-type:checked ~ .slide-button {
+    -webkit-transform: skew(20deg) translateX(-10px);
+    -moz-transform: skew(20deg) translateX(-10px);
+    -ms-transform: skew(20deg) translateX(-10px);
+    transform: skew(20deg) translateX(-10px);
+  }
+
+  .android p {
+    color: #333;
+  }
+
+  .android span {
+    color: #fff;
+  }
+
+  .android.switch,
+  .android span {
+    text-transform: uppercase;
+  }
+
+  /* Fix Android/Holo Theme in firefox - force absolute position */
+  .android.switch input {
+    top: 0;
+    left: 0;
+  }
+
+}

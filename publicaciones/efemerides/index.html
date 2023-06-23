@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html manifest="manifest.php?page=efem_rides">
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Efemérides</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+		<link href="../_assets_jqm/img/apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+		<link href="../_assets_jqm/img/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link href="../_assets_jqm/img/apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
+		<link href="../_assets_jqm/img/apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image">
+		<link href="../_assets_jqm/img/apple-touch-startup-image-1536x2008.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link href="../_assets_jqm/img/apple-touch-startup-image-1496x2048.png" media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+		<link rel="stylesheet" href="../_assets_jqm/css/jquery.mobile-1.1.0.min.css" type="text/css"/>
+		<link rel="stylesheet" href="../_assets_jqm/css/exegesis-jquerymobile-theme.css" type="text/css"/>
+		<link rel="stylesheet" href="../_assets_jqm/css/stilexe.css" type="text/css"/>
+		<link rel="stylesheet" href="../_assets_jqm/css/add2home.css">
+		<script src="../_assets_jqm/js/klass.min.js" type="text/javascript"></script>
+		<script src="../_assets_jqm/js/jquery-1.6.4.min.js" type="text/javascript"></script>
+		<script src="../_assets_jqm/js/jquery.mobile-1.1.0.min.js" type="text/javascript"></script>
+		<script src="../_assets_jqm/js/code.photoswipe.jquery-3.0.4.min.js" type="text/javascript"></script>
+		<script src="../_assets_jqm/js/scriptexe.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var addToHomeConfig = {
+				lifespan:10000,
+				touchIcon:true,
+				message: 'es_es'
+			};
+		</script>
+		<script src="../_assets_jqm/js/add2home.js" type="application/javascript"></script>
+	</head>
+	<body>
+		<div data-role="page" id="index" data-theme="b">
+			<div data-role="content">
+				<ul class="cb-slideshow">
+					<li id="indexTitle1">
+						<span style="background: #000"> </span>
+						<div>
+							<h3><img src="../_assets_jqm/img/logo-exegesis.png" alt="Revista Exégesis" /></h3>
+						</div>
+					</li>
+					<li id="indexTitle2">
+						<span style="background: #000"> </span>
+						<div>
+							<h3>presenta</h3>
+						</div>
+					</li>
+					<li id="indexTitle3">
+						<span style="background-image: url('../source/efem_rides/page0/00a_jpg.jpg'); "> </span>
+						<div>
+							<h3><img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" style="width:70%;" /></h3>
+						</div>
+					</li>
+					<li id="indexTitle4">
+						<span style="background-image: url('../source/efem_rides/page0/01_indice_jpg.jpg'); "> </span>
+						<div>
+							<h3>creado por</h3>
+						</div>
+					</li>
+					<li id="indexTitle5">
+						<span style="background-image: url('../source/efem_rides/page0/02_jpg.jpg'); "> </span>
+						<div>
+							<h3>Blas Bigatti</h3>
+						</div>
+					</li>
+					<li id="indexTitle6">
+						<span style="background-image: url('../source/efem_rides/page0/03_jpg.jpg'); "> </span>
+						<div>
+							<h3>Marc Roca</h3>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<footer data-role="footer" data-id="indexfooter" data-position="fixed" data-tap-toggle="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#about" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Sobre Efemérides</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page1" data-icon="arrow-r" data-transition="fade" id="nextPage">Introducción</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" id="about">
+			<article data-role="content">
+				<header>
+					<h2 id="titlePage">Sobre Efemérides</h2>
+				</header>
+				<div id="contentPage">
+					<div class="entry">
+						<p style="text-align: center;"><strong>Recuerda que puedes guardar esta aplicación en tu tablet o dispositivo móvil y leerla cuando quieras, incluso estando desconectado de internet.</strong></p>
+<p><strong>Desde un dispositivo Android:</strong></p>
+<p>Sitúate en la portada de la aplicación y pulsa en la estrella que aparece al lado de la barra de navegación. Aparecerá un menú donde podrás añadir la página a tu "Escritorio" o "Home Screen".</p>
+<p><strong>Desde iOS (iPhone o iPad):</strong></p>
+<p>Sitúate en la portada de la aplicación, pulsa en el icono compuesto por un cuado con una flecha y selecciona "Añadir a la pantalla de Inicio" o "Add to Home Screen"</p>
+<br /><br />
+<p><strong>SOBRE EFEMÉRIDES</strong></p>
+<p>© 2012 - Blas Bigatti & Marc Roca</p>
+<p>DEPÓSITO LEGAL: DL NA 1391-2012</p>
+<p>Todos los contenidos publicados se encuentran protegidos bajo los términos de la licencia Creative Commons Atribución-No Comercial - Sin Obras Derivadas 3.0 Unported.</p>
+<p>Para cualquier uso por fuera de los términos de esta licencia, por favor, contactarse con los autores a <a id="__cf_email__" href="http://cloudflare.com/email-protection.html" class="b3d1dfd2c0d1dad4d2c7c7daf3d4ded2dadf9dd0dcde">[email&nbsp;protected]</a><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementById("__cf_email__");a=l.className;if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script> ó <a id="__cf_email__" href="http://cloudflare.com/email-protection.html" class="01726e6c646c607362747241666c60686d2f626e6c">[email&nbsp;protected]</a><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementById("__cf_email__");a=l.className;if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script></p>
+<br /><br />
+<p><strong>SOBRE REVISTA EXÉGESIS</strong></p>
+<p>Fundada en 2009 como la única publicación on-line en español centrada en el cómic y la ciencia ficción, Revista Exégesis ofrece en su web (<a href="../" target="_blank">http://revista-exegesis.com</a>) varias publicaciones semanales, compiladas cada dos meses en un número digital – descargable en formatos .pdf y .cbr/.cbz - y esta versión para tablets y dispositivos portátiles en formato html.</p>
+<p>La ciencia ficción, el cómic y la ilustración tienen hoy en Exégesis una publicación rica en matices, con gran capacidad para la reinvención y siempre dispuesta a adaptarse a nuevos retos.</p>					</div>
+				</div>
+			</article>
+			<footer data-role="footer" data-id="aboutfooter" data-position="fixed" data-tap-toggle="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page1" data-icon="arrow-r" data-transition="fade" id="previousPage">Introducción</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#index" data-icon="home" data-transition="fade" id="nextPage">Portada</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page"  data-theme="a" id="page1">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+											</header>
+			<article data-role="content" id="relato">
+				<header>
+					<h2 id="titlePage">Introducción</h2>
+					<p id="autorPage">(e instrucciones de uso)</p>
+				</header>
+				<div id="contentPage" class="relato">
+<p>Las Efemérides Sci-Fi comenzaron a publicarse mensualmente en Revista Exégesis el 20 de julio de 2009, conmemorando los 20 años de la llegada del hombre a la luna. Durante sus primeros seis meses, las Efemérides llevaron las firmas de Blas Bigatti y Simud (este último, alterego dibujante del primero), con una breve colaboración de Antonio HG como colorista. A partir del 27 de enero de 2010, Marc Roca se hizo cargo del dibujo y el color de la tira, que continuó siendo mensual hasta el 12 de mayo de 2011. Desde entonces, las Efemérides continúan publicándose a razón de una por cada número de Revista Exégesis, de salida bimestral.</p>
+<p>Hemos decidido reunir en esta antología las 27 Efemérides publicadas hasta el momento tal como aparecieron originalmente, aunque ordenándolas de acuerdo con las fechas que conmemoran (es decir, comenzando por enero y terminando en diciembre). Esto supuso trastocar el orden en que fueron publicadas. Sin embargo, el número de publicación de cada página puede consultarse en el vértice superior derecho de las viñetas finales, junto a los créditos. De este modo, el lector curioso (o con tiempo para perder) puede optar también por leer las tiras de modo salteado, comenzando por el 20 de julio y rastreando el orden original de las siguientes publicaciones.  </p>
+<p>Los autores</p>
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#index" data-icon="home" data-transition="fade" data-direction="reverse" id="previousPage">Portada</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page2" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page"  data-theme="a" id="page2">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+											</header>
+			<article data-role="content" id="relato">
+				<header>
+					<h2 id="titlePage">El guionista</h2>
+					<p id="autorPage">Blas Bigatti</p>
+				</header>
+				<div id="contentPage" class="relato">
+<p>Las Efemérides Sci-Fi nacieron como una excusa. Al principio, cuando recién comenzaba a echar mano a las artes de guionista, fueron la excusa perfecta para asegurarme una publicación regular en Revista Exégesis. En ese entonces, imposibilitado de asegurarme alguna otra cosa de valor (por ejemplo, la compañía de un aguerrido dibujante), me solazaba tramando historias mínimas, afectadas situaciones reflexivas y rústicos gags humorísticos. Claro que sin la compañía de un aguerrido dibujante (que era lo que en verdad necesitaba), yo mismo debía hacer frente a la tortuosa tarea de dibujar. Así fueron transcurriendo las primeras efemérides, a medio camino entre el solaz y la tortura. Gran tortura, por cierto. Mientras tanto, no sin macabra perversidad, iba tendiendo mi seductora trampa: una tira mensual, breve, variopinta, el sitio perfecto para cualquier dibujante curioso y creativo. Esperé. Eché más cebo a mi emboscada. Finalmente lo vi arrimarse lentamente hasta las páginas virtuales de la revista. Lo vi, incauto e indefenso, alzando migajas por aquí, restregándose las alas por allá. Y entonces tiré del cordel, y ya era mío. La trampa perfecta. Marc Roca creyó aquello que yo mismo no me creía aún: que las efemérides valían la pena. Y de un día para el otro se convirtió en el aguerrido dibujante que tanto había añorado. Gracias a él asistimos a una segunda fundación de las Efemérides, hasta el punto de que hoy es imposible no asociarlas con su trazo indagador y sus amables personajes. Junto a Marc, las efemérides no dejaron de ser una excusa; pero ahora eran la excusa perfecta para ejercitarse y para experimentar. ¿Qué mejor modo de aceitar los mecanismos narrativos que abordar las recurrentes dificultades de contar algo en no más de una página? ¿Qué mejor lugar para poner a prueba recursos nuevos que una historia brevísima que, si falla, pronto se olvida? De puro ensayo y error están hechas las Efemérides (y, por momentos, de puro error solamente). Pero he aprendido a valorar y a querer a estas heterogéneas criaturas. Además, gracias a ellas he tenido la oportunidad de conocer a un gran amigo como Marc (si es que la amistad es posible a través de la web y con un ancho océano de por medio –yo creo que sí). Él es, sin dudas, un dibujante aguerrido, y su coraje nos ha permitido saltar de las breves páginas conmemorativas al tramado de historias más ambiciosas aún. Pero todo comenzó con estas lacónicas páginas mensuales. Y hoy, 27 de enero de 2012 (¡ay, fechas, fechas!) se cumplen dos años desde su refundación, dos años de efemérides compartidas. Como estamos muy bien acostumbrados a los aniversarios, no podíamos dejar de conmemorar un acontecimiento semejante. No es otro el motivo de esta breve antología. En lo que refiere a mi persona, simboliza mi alegría por dos años de continuo solaz, pero ya sin torturas. Con mucho tino, he sabido dejarle la parte tortuosa de este asunto a mi víctima (y amigo) Marc.</p>
+<p> </p>
+<p>Blas Bigatti</p>
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page1" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page3" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page"  data-theme="a" id="page3">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+											</header>
+			<article data-role="content" id="relato">
+				<header>
+					<h2 id="titlePage">El dibujante</h2>
+					<p id="autorPage">Marc Roca</p>
+				</header>
+				<div id="contentPage" class="relato">
+<p>Confieso ahora que no me lee nadie que recibir cada guión mensual (ahora bimestral) de Blas para nuestras Efemérides es un momento que cada vez aguardo con mayor curiosidad. No creo haber estado siempre a la altura de esos fantásticos guiones, pero nunca he dejado de disfrutarlos. Además, soy el primero en hacerlo. Rabiad por ello. Y es que no falla: en ese documento siempre hay alguna idea sugerente, algún motivo para esbozar una sonrisa, algún reto visual que me ayudará a trazar un poco mejor la próxima página con la que me enfrente... pues las Efemérides Sci-Fi son un patio de juegos en el que cabe casi todo, una grata excusa para experimentar y divertirse mezclando este medio tan maleable que es el cómic con ese trasfondo infinito que conforman el universo y sus engranajes.</p>
+<p>Por todo ello le estoy muy agradecido a Blas por haber compartido su juguete conmigo desde hace dos años. Puede decirse que ha sido un tiempo bien aprovechado. A lo largo de este período Blas y yo hemos construido soles artificiales y viajado al fondo de un agujero negro. Hemos radiografiado a extraterrestres, cocinado astronautas en microondas alienígenas y sacado a la luz los trapos sucios de un cura medieval. Hemos investigado el suicidio de una mariposa (¿o acaso fue el crimen de un joven científico?), celebrado la enésima victoria del Capitán Ignífugo y viajado hasta el nacimiento del teléfono. Hemos arrojado los relojes al vacío cósmico. Hemos contemplado un mundo de clones y asistido a un fallido noviazgo interplanteario. Hemos estrellado sondas espaciales en el planeta Marte, ¡y también en un plato de sopa! Hemos visitado fábricas explotadoras, centros comerciales futuristas, neveras prehistóricas y médicos robóticos. Nos hemos asombrado ante la exégesis del libro. Hemos charlado en el café La Unión y hemos descorchado cava con nuestros camaradas a bordo de una nave interestelar. Hemos soñado mirando hacia las estrellas.</p>
+<p>Me pregunto cuánto tiempo nos queda por delante en este viaje, y qué cosas extrañas y emocionantes llegaremos a contemplar. Quizá veamos rayos C brillar en la oscuridad cerca de la puerta de Tannhäuser, aunque lo dudo, porque eso está muy visto. Solo sé que pronto Blas me mandará un nuevo guión lleno de complejas viñetas apretujadas. Puede que entonces me desoriente alguno de esos extraños vocablos que jamás han cruzado el Atlántico. Seguramente me retrase con los primeros bocetos y Blas maldiga mis ancestros por ello. Le haré sufrir en legítima defensa. Le mandaré la página el último día del plazo y él se vengará devorando mis detallados fondos con un colosal bocadillo.</p>
+<p>Sé que de ahí saldrá una buena Efeméride. Y sé que luego seguiremos explorando el tejido de la realidad y las infinitas posibilidades de algo tan simple como una página en blanco.</p>
+<p> </p>
+<p>Marc Roca</p>
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page2" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page4" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page4">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+												<div id="zoom">
+					<a href="../source/efem_rides/page4/05_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">Almanaque 2012</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page4/05_jpg.jpg" alt="Almanaque 2012 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page3" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page5" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page5">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#d9e6aaacbbb3bcbaade48bbcafb0aaadb8f99ca11a70bebcaab0aaf9f4f994bcb7aab8b3bcaaf9ffb8b4a9e2bbb6bda0e498bab8bbb6f9bdbcf9b5bcbcabf9e8eaf9Xde Enero y creo que te puede gustar: http://revista-exegesis.com/2012/01/efemeride-13-de-enero/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2012/01/efemeride-13-de-enero/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2012/01/efemeride-13-de-enero/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=13 de Enero - http://revista-exegesis.com/2012/01/efemeride-13-de-enero/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2012/01/efemeride-13-de-enero/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page5/06_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">13 de Enero</h2>
+					<p id="autorPage">  </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page5/06_jpg.jpg" alt="13 de Enero 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page4" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page6" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page6">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#7c430f091e16191f08412e190a150f081d5c3904bfd51b190f150f5c515c3119120f1d16190f5c5a1d110c471e131805413d1f1d1e135c18195c1019190e5c4e495cXde Enero y creo que te puede gustar: http://revista-exegesis.com/2011/01/efemeride-25-de-enero/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2011/01/efemeride-25-de-enero/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2011/01/efemeride-25-de-enero/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=25 de Enero - http://revista-exegesis.com/2011/01/efemeride-25-de-enero/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2011/01/efemeride-25-de-enero/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page6/07_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">25 de Enero</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page6/07_jpg.jpg" alt="25 de Enero 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page5" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page7" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page7">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#fec18d8b9c949b9d8ac3ac9b88978d8a9fdebb863d57999b8d978dded3deb39b908d9f949b8dded89f938ec59c919a87c3bf9d9f9c91de9a9bde929b9b8cdeccc9deXde Enero y creo que te puede gustar: http://revista-exegesis.com/2010/01/efemerides-07-enero-2010/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/01/efemerides-07-enero-2010/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/01/efemerides-07-enero-2010/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=27 de Enero - http://revista-exegesis.com/2010/01/efemerides-07-enero-2010/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/01/efemerides-07-enero-2010/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page7/08_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">27 de Enero</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page7/08_jpg.jpg" alt="27 de Enero 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page6" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page8" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page8">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#a39cd0d6c1c9c6c0d79ef1c6d5cad0d7c283e6db600ac4c6d0cad0838e83eec6cdd0c2c9c6d08385c2ced398c1ccc7da9ee2c0c2c1cc83c7c683cfc6c6d1839483c7Xe Febrero y creo que te puede gustar: http://revista-exegesis.com/2011/02/efemeride-7-de-febrero/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2011/02/efemeride-7-de-febrero/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2011/02/efemeride-7-de-febrero/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=7 de Febrero - http://revista-exegesis.com/2011/02/efemeride-7-de-febrero/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2011/02/efemeride-7-de-febrero/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page8/09_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">7 de Febrero</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page8/09_jpg.jpg" alt="7 de Febrero 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page7" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page9" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page9">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#ac93dfd9cec6c9cfd891fec9dac5dfd8cd8ce9d46f05cbc9dfc5df8c818ce1c9c2dfcdc6c9df8c8acdc1dc97cec3c8d591edcfcdcec38cc8c98cc0c9c9de8c9d998cXde Febrero y creo que te puede gustar: http://revista-exegesis.com/2010/02/efemerides-15-febrero-2010/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/02/efemerides-15-febrero-2010/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/02/efemerides-15-febrero-2010/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=15 de Febrero - http://revista-exegesis.com/2010/02/efemerides-15-febrero-2010/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/02/efemerides-15-febrero-2010/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page9/10_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">15 de Febrero</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page9/10_jpg.jpg" alt="15 de Febrero 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page8" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page10" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page10">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#cdf2beb8afa7a8aeb9f09fa8bba4beb9aced88b50e64aaa8bea4beede0ed80a8a3beaca7a8beedebaca0bdf6afa2a9b4f08caeacafa2eda9a8eda1a8a8bfedfcffedXde Marzo y creo que te puede gustar: http://revista-exegesis.com/2010/03/efemerides-12-marzo-2010/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/03/efemerides-12-marzo-2010/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/03/efemerides-12-marzo-2010/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=12 de Marzo - http://revista-exegesis.com/2010/03/efemerides-12-marzo-2010/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/03/efemerides-12-marzo-2010/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page10/11_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">12 de Marzo</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page10/11_jpg.jpg" alt="12 de Marzo 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page9" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page11" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page11">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#af90dcdacdc5caccdb92fdcad9c6dcdbce8fead76c06c8cadcc6dc8f828fe2cac1dccec5cadc8f89cec2df94cdc0cbd692eecccecdc08fcbca8fc3cacadd8f9e998fXde Marzo y creo que te puede gustar: http://revista-exegesis.com/2011/03/efemeride-16-de-marzo/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2011/03/efemeride-16-de-marzo/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2011/03/efemeride-16-de-marzo/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=16 de Marzo - http://revista-exegesis.com/2011/03/efemeride-16-de-marzo/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2011/03/efemeride-16-de-marzo/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page11/12_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">16 de Marzo</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page11/12_jpg.jpg" alt="16 de Marzo 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page10" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page12" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page12">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#bb84c8ced9d1ded8cf86e9decdd2c8cfda9bfec37812dcdec8d2c89b969bf6ded5c8dad1dec89b9ddad6cb80d9d4dfc286fad8dad9d49bdfde9bd7dedec99b8f9bdfXe Abril y creo que te puede gustar: http://revista-exegesis.com/2011/04/efemerides-sci-fi-abril/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2011/04/efemerides-sci-fi-abril/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2011/04/efemerides-sci-fi-abril/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=4 de Abril - http://revista-exegesis.com/2011/04/efemerides-sci-fi-abril/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2011/04/efemerides-sci-fi-abril/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page12/13_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">4 de Abril</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page12/13_jpg.jpg" alt="4 de Abril 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page11" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page13" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page13">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#3f004c4a5d555a5c4b026d5a49564c4b5e1f7a47fc96585a4c564c1f121f725a514c5e555a4c1f195e524f045d505b46027e5c5e5d501f5b5a1f535a5a4d1f061f5bXe Abril y creo que te puede gustar: http://revista-exegesis.com/2010/04/efemerides-9-abril-2010/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/04/efemerides-9-abril-2010/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/04/efemerides-9-abril-2010/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=9 de Abril - http://revista-exegesis.com/2010/04/efemerides-9-abril-2010/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/04/efemerides-9-abril-2010/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page13/14_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">9 de Abril</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page13/14_jpg.jpg" alt="9 de Abril 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page14" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page14">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#5e612d2b3c343b3d2a630c3b28372d2a3f7e1b269df7393b2d372d7e737e133b302d3f343b2d7e783f332e653c313a27631f3d3f3c317e3a3b7e323b3b2c7e6f6c7eXde Mayo y creo que te puede gustar: http://revista-exegesis.com/2011/05/efemeride-12-de-mayo/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2011/05/efemeride-12-de-mayo/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2011/05/efemeride-12-de-mayo/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=12 de Mayo - http://revista-exegesis.com/2011/05/efemeride-12-de-mayo/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2011/05/efemeride-12-de-mayo/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page14/15_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">12 de Mayo</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page14/15_jpg.jpg" alt="12 de Mayo 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page13" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page15" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page15">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#2f105c5a4d454a4c5b127d4a59465c5b4e0f6a57ec86484a5c465c0f020f624a415c4e454a5c0f094e425f144d404b56126e4c4e4d400f4b4a0f434a4a5d0f1d1a0fXde Mayo y creo que te puede gustar: http://revista-exegesis.com/2010/05/efemerides-25-mayo-2010/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/05/efemerides-25-mayo-2010/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/05/efemerides-25-mayo-2010/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=25 de Mayo - http://revista-exegesis.com/2010/05/efemerides-25-mayo-2010/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/05/efemerides-25-mayo-2010/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page15/16_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">25 de Mayo</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page15/16_jpg.jpg" alt="25 de Mayo 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page14" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page16" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page16">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#f9c68a8c9b939c9a8dc4ab9c8f908a8d98d9bc813a509e9c8a908ad9d4d9b49c978a98939c8ad9df989489c29b969d80c4b89a989b96d99d9cd9959c9c8bd9c8cbd9Xde Junio y creo que te puede gustar: http://revista-exegesis.com/2010/06/efemerides-12-junio-2010/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/06/efemerides-12-junio-2010/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/06/efemerides-12-junio-2010/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=12 de Junio - http://revista-exegesis.com/2010/06/efemerides-12-junio-2010/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/06/efemerides-12-junio-2010/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page16/17_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">12 de Junio</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page16/17_jpg.jpg" alt="12 de Junio 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page15" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page17" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page17">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#b788c4c2d5ddd2d4c38ae5d2c1dec4c3d697f2cf741ed0d2c4dec4979a97fad2d9c4d6ddd2c49791d6dac78cd5d8d3ce8af6d4d6d5d897d3d297dbd2d2c5978297d3Xe Julio y creo que te puede gustar: http://revista-exegesis.com/2010/07/efemeride-5-de-julio/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/07/efemeride-5-de-julio/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/07/efemeride-5-de-julio/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=5 de Julio - http://revista-exegesis.com/2010/07/efemeride-5-de-julio/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/07/efemeride-5-de-julio/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page17/18_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">5 de Julio</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page17/18_jpg.jpg" alt="5 de Julio 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page16" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page18" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page18">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#744b0701161e111700492611021d07001554310cb7dd1311071d0754595439111a07151e110754521519044f161b100d49351715161b541011541811110654464454Xde Julio y creo que te puede gustar: http://revista-exegesis.com/2009/07/efemerides-01-junio-2009/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2009/07/efemerides-01-junio-2009/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2009/07/efemerides-01-junio-2009/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=20 de Julio - http://revista-exegesis.com/2009/07/efemerides-01-junio-2009/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2009/07/efemerides-01-junio-2009/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page18/19_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">20 de Julio</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page18/19_jpg.jpg" alt="20 de Julio 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page17" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page19" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page19">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#7f400c0a1d151a1c0b422d1a09160c0b1e5f3a07bcd6181a0c160c5f525f321a110c1e151a0c5f591e120f441d101b06423e1c1e1d105f1b1a5f131a1a0d5f495f1bXe Agosto y creo que te puede gustar: http://revista-exegesis.com/2009/08/efemerides-02-%e2%80%93-agosto-2009/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2009/08/efemerides-02-%e2%80%93-agosto-2009/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2009/08/efemerides-02-%e2%80%93-agosto-2009/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=6 de Agosto - http://revista-exegesis.com/2009/08/efemerides-02-%e2%80%93-agosto-2009/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2009/08/efemerides-02-%e2%80%93-agosto-2009/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page19/20_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">6 de Agosto</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page19/20_jpg.jpg" alt="6 de Agosto 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page18" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page20" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page20">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#a29dd1d7c0c8c7c1d69ff0c7d4cbd1d6c382e7da610bc5c7d1cbd1828f82efc7ccd1c3c8c7d18284c3cfd299c0cdc6db9fe3c1c3c0cd82c6c782cec7c7d0829b82c6Xe Agosto y creo que te puede gustar: http://revista-exegesis.com/2011/08/efemeride-9-de-agosto/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2011/08/efemeride-9-de-agosto/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2011/08/efemeride-9-de-agosto/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=9 de Agosto - http://revista-exegesis.com/2011/08/efemeride-9-de-agosto/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2011/08/efemeride-9-de-agosto/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page20/21_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">9 de Agosto</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page20/21_jpg.jpg" alt="9 de Agosto 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page19" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page21" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page21">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#9ba4e8eef9f1fef8efa6c9feedf2e8effabbdee35832fcfee8f2e8bbb6bbd6fef5e8faf1fee8bbbdfaf6eba0f9f4ffe2a6daf8faf9f4bbfffebbf7fefee9bba9adbbXde Agosto y creo que te puede gustar: http://revista-exegesis.com/2010/08/efemeride-26-de-agosto/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/08/efemeride-26-de-agosto/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/08/efemeride-26-de-agosto/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=26 de Agosto - http://revista-exegesis.com/2010/08/efemeride-26-de-agosto/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/08/efemeride-26-de-agosto/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page21/22_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">26 de Agosto</h2>
+					<p id="autorPage">  </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page21/22_jpg.jpg" alt="26 de Agosto 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page20" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page22" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page22">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#310e4244535b5452450c63544758424550117449f2985654425842111c117c545f42505b54421117505c410a535e55480c705250535e115554115d54544311000811Xde Septiembre y creo que te puede gustar: http://revista-exegesis.com/2009/09/efemerides-03-%e2%80%93-septiembre-2009/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2009/09/efemerides-03-%e2%80%93-septiembre-2009/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2009/09/efemerides-03-%e2%80%93-septiembre-2009/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=19 de Septiembre - http://revista-exegesis.com/2009/09/efemerides-03-%e2%80%93-septiembre-2009/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2009/09/efemerides-03-%e2%80%93-septiembre-2009/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page22/23_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">19 de Septiembre</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page22/23_jpg.jpg" alt="19 de Septiembre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page21" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page23" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page23">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#88b7fbfdeae2edebfcb5daedfee1fbfce9a8cdf04b21efedfbe1fba8a5a8c5ede6fbe9e2edfba8aee9e5f8b3eae7ecf1b5c9ebe9eae7a8eceda8e4ededfaa8babba8Xde Septiembre y creo que te puede gustar: http://revista-exegesis.com/2010/09/efemeride-23-de-septiembre/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/09/efemeride-23-de-septiembre/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/09/efemeride-23-de-septiembre/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=23 de Septiembre - http://revista-exegesis.com/2010/09/efemeride-23-de-septiembre/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/09/efemeride-23-de-septiembre/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page23/24_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">23 de Septiembre</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page23/24_jpg.jpg" alt="23 de Septiembre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page22" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page24" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page24">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#dee1adabbcb4bbbdaae38cbba8b7adaabffe9ba61d77b9bbadb7adfef3fe93bbb0adbfb4bbadfef8bfb3aee5bcb1baa7e39fbdbfbcb1febabbfeb2bbbbacfee6febaXe Octubre y creo que te puede gustar: http://revista-exegesis.com/2011/10/efemeride-8-de-octubre/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2011/10/efemeride-8-de-octubre/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2011/10/efemeride-8-de-octubre/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=8 de Octubre - http://revista-exegesis.com/2011/10/efemeride-8-de-octubre/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2011/10/efemeride-8-de-octubre/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page24/25_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">8 de Octubre</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page24/25_jpg.jpg" alt="8 de Octubre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page23" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page25" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page25">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#e7d89492858d828493dab582918e949386c7a29f244e8082948e94c7cac7aa828994868d8294c7c1868a97dc8588839edaa684868588c78382c78b828295c7d5d7c7Xde Octubre y creo que te puede gustar: http://revista-exegesis.com/2010/10/efemeride-20-de-octubre/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/10/efemeride-20-de-octubre/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/10/efemeride-20-de-octubre/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=20 de Octubre - http://revista-exegesis.com/2010/10/efemeride-20-de-octubre/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/10/efemeride-20-de-octubre/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page25/26_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">20 de Octubre</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page25/26_jpg.jpg" alt="20 de Octubre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page24" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page26" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page26">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#90afe3e5f2faf5f3e4adc2f5e6f9e3e4f1b0d5e85339f7f5e3f9e3b0bdb0ddf5fee3f1faf5e3b0b6f1fde0abf2fff4e9add1f3f1f2ffb0f4f5b0fcf5f5e2b0dff3e4Xubre y creo que te puede gustar: http://revista-exegesis.com/2009/10/efemerides-04-%e2%80%93-octubre-2009/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2009/10/efemerides-04-%e2%80%93-octubre-2009/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2009/10/efemerides-04-%e2%80%93-octubre-2009/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=Octubre - http://revista-exegesis.com/2009/10/efemerides-04-%e2%80%93-octubre-2009/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2009/10/efemerides-04-%e2%80%93-octubre-2009/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page26/27_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">Octubre</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page26/27_jpg.jpg" alt="Octubre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page25" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page27" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page27">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#7c430f091e16191f08412e190a150f081d5c3904bfd51b190f150f5c515c3119120f1d16190f5c5a1d110c471e131805413d1f1d1e135c18195c1019190e5c445c18Xe Noviembre y creo que te puede gustar: http://revista-exegesis.com/2009/11/efemerides-05-%E2%80%93-noviembre-2009/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2009/11/efemerides-05-%E2%80%93-noviembre-2009/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2009/11/efemerides-05-%E2%80%93-noviembre-2009/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=8 de Noviembre - http://revista-exegesis.com/2009/11/efemerides-05-%E2%80%93-noviembre-2009/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2009/11/efemerides-05-%E2%80%93-noviembre-2009/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page27/28_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">8 de Noviembre</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page27/28_jpg.jpg" alt="8 de Noviembre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page26" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page28" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page28">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#88b7fbfdeae2edebfcb5daedfee1fbfce9a8cdf04b21efedfbe1fba8a5a8c5ede6fbe9e2edfba8aee9e5f8b3eae7ecf1b5c9ebe9eae7a8eceda8e4ededfaa8b9bfa8Xde Noviembre y creo que te puede gustar: http://revista-exegesis.com/2010/11/efemeride-17-de-noviembre/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/11/efemeride-17-de-noviembre/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/11/efemeride-17-de-noviembre/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=17 de Noviembre - http://revista-exegesis.com/2010/11/efemeride-17-de-noviembre/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/11/efemeride-17-de-noviembre/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page28/29_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">17 de Noviembre</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page28/29_jpg.jpg" alt="17 de Noviembre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page27" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page29" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page29">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#2d125e584f47484e59107f485b445e594c0d6855ee844a485e445e0d000d6048435e4c47485e0d0b4c405d164f424954106c4e4c4f420d49480d4148485f0d1c140dXde Diciembre y creo que te puede gustar: http://revista-exegesis.com/2010/12/efemeride-19-de-diciembre/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2010/12/efemeride-19-de-diciembre/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2010/12/efemeride-19-de-diciembre/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=19 de Diciembre - http://revista-exegesis.com/2010/12/efemeride-19-de-diciembre/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2010/12/efemeride-19-de-diciembre/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page29/30_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">19 de Diciembre</h2>
+					<p id="autorPage">  </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page29/30_jpg.jpg" alt="19 de Diciembre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page28" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page30" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page30">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#1f206c6a7d757a7c6b224d7a69766c6b7e3f5a67dcb6787a6c766c3f323f527a716c7e757a6c3f397e726f247d707b66225e7c7e7d703f7b7a3f737a7a6d3f2d2c3fXde Diciembre y creo que te puede gustar: http://revista-exegesis.com/2009/12/efemerides-06-%e2%80%93-diciembre-2009/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2009/12/efemerides-06-%e2%80%93-diciembre-2009/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2009/12/efemerides-06-%e2%80%93-diciembre-2009/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=23 de Diciembre - http://revista-exegesis.com/2009/12/efemerides-06-%e2%80%93-diciembre-2009/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2009/12/efemerides-06-%e2%80%93-diciembre-2009/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page30/31_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">23 de Diciembre</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page30/31_jpg.jpg" alt="23 de Diciembre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page29" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page31" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page31">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+								<div id="share">
+					<div id="container-circle">
+						<a id="button-1" rel="external" class="btn" target="_blank" href="http://cloudflare.com/email-protection.html#023d717760686761763f5067746b71766322477ac1ab6567716b71222f224f676c71636867712224636f7239606d667b3f436163606d226667226e67677022303b22Xde Diciembre y creo que te puede gustar: http://revista-exegesis.com/2011/12/efemeride-29-de-diciembre/">@</a>
+						<a id="button-2" rel="external" class="btn" target="_blank" href="http://revista-exegesis.com/2011/12/efemeride-29-de-diciembre/#disqus_thread">c</a>
+						<a id="button-3" rel="external" class="btn" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=es&amp;url=http://revista-exegesis.com/2011/12/efemeride-29-de-diciembre/">g</a>
+						<a id="button-4" rel="external" class="btn" target="_blank" href="http://twitter.com/home?status=29 de Diciembre - http://revista-exegesis.com/2011/12/efemeride-29-de-diciembre/">t</a>
+						<a id="button-5" rel="external" class="btn" target="_blank" href="http://facebook.com/share.php?u=http://revista-exegesis.com/2011/12/efemeride-29-de-diciembre/">f</a>
+						<div id="base-button">J<span><br />compatir</span>
+						</div>
+					</div>
+				</div>
+												<div id="zoom">
+					<a href="../source/efem_rides/page31/32_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="comic">
+				<header>
+					<h2 id="titlePage">29 de Diciembre</h2>
+					<p id="autorPage">  </p>
+				</header>
+				<div id="contentPage" class="comic">
+					<img src="../source/efem_rides/page31/32_jpg.jpg" alt="29 de Diciembre 1">
+
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page30" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page32" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page32">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+												<div id="zoom">
+					<a href="../source/efem_rides/page32/33_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+					<a href="../source/efem_rides/page32/34_jpg.jpg" rel="external" class="btOculto">I<br><span>ampliar</span></a>
+					<a href="../source/efem_rides/page32/35_jpg.jpg" rel="external" class="btOculto">I<br><span>ampliar</span></a>
+					<a href="../source/efem_rides/page32/36_jpg.jpg" rel="external" class="btOculto">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="relato">
+				<header>
+					<h2 id="titlePage">Una ESF en proceso</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="relato">
+<p><strong>Efeméride 10:</strong></p>
+<p><strong> </strong></p>
+<p><strong>La labor de Blas:</strong> Primeras notas y diálogos, diagramado de página previo a la escritura del guión y fragmento del guión.</p>
+<p><img src="../source/efem_rides/page32/33_jpg.jpg" alt="Una ESF en proceso 1"></p>
+<p> </p>
+<p><strong>La labor de Marc:</strong> Primeros bocetos de personajes, primeros bocetos de página y lápiz de la página.</p>
+<p><img src="../source/efem_rides/page32/34_jpg.jpg" alt="Una ESF en proceso 2"></p>
+<p> </p>
+<p><strong>La labor de Marc: </strong>Página entintada y página coloreada.</p>
+<p><img src="../source/efem_rides/page32/35_jpg.jpg" alt="Una ESF en proceso 3"></p>
+<p> </p>
+<p><strong>La labor de Blas: </strong>Rotulados y montaje final.</p>
+<p><img src="../source/efem_rides/page32/36_jpg.jpg" alt="Una ESF en proceso 4"></p>
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page31" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page33" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page33">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+												<div id="zoom">
+					<a href="../source/efem_rides/page33/37_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="relato">
+				<header>
+					<h2 id="titlePage">Extras</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="relato">
+<p>Portada 2009 para las Efemérides, por Simud y Wallpaper de la Efeméride 11, por Marc.</p>
+<p><img src="../source/efem_rides/page33/37_jpg.jpg" alt="Extras 1"></p>
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page32" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page34" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" class="photoswipe" data-theme="a" id="page34">
+			<header data-role="header" data-id="exeheader" class="exeheader" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemérides SCI-FI" class="headerImg" />
+												<div id="zoom">
+					<a href="../source/efem_rides/page34/38_jpg.jpg" rel="external" class="btAmpliar">I<br><span>ampliar</span></a>
+				</div>
+							</header>
+			<article data-role="content" id="relato">
+				<header>
+					<h2 id="titlePage">Contraportada</h2>
+					<p id="autorPage"> </p>
+				</header>
+				<div id="contentPage" class="relato">
+<p><img src="../source/efem_rides/page34/38_jpg.jpg" alt="Contraportada 1"></p>
+<p><em>“nuestra hipótesis es que la ciencia tiene mucho de entretenido. Hasta donde pudimos comprobar, ésta resulta ser una hipótesis coherente con las actuales leyes de la física... con las que pudimos entender, al menos.”</em></p>
+<p><strong>- Ember Brown</strong></p>
+				</div>
+			</article>
+			<footer data-role="footer" data-id="exefooter" data-position="fixed" data-visible-on-page-show="false" data-theme="b">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#page33" data-icon="arrow-l" data-transition="fade" data-direction="reverse" id="previousPage">Atrás</a>
+						</li>
+						<li>
+							<a href="#indice" data-rel="dialog" data-transition="slidedown" data-icon="grid">Índice</a>
+						</li>
+						<li>
+							<a href="#page35" data-icon="arrow-r" data-transition="fade" id="nextPage">Siguiente</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div data-role="page" data-theme="b" id="indice">
+			<div data-role="content">
+				<ul data-role="listview">
+					<li>
+						<a href="#index"><img src="EFEMERIDES-SCI-FI-logo.png" alt="Efemerides SCI-FI" style="width: 50%;margin: 10px 25%;max-width: 500px;border-radius: 0;"></a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page1">
+														Introducción<br />
+							<span>(e instrucciones de uso)</span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page2">
+														El guionista<br />
+							<span>Blas Bigatti</span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page3">
+														El dibujante<br />
+							<span>Marc Roca</span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page4">
+														<img id="img4" src="../source/efem_rides/page4/05_jpg.jpg" alt="">
+														Almanaque 2012<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page5">
+														<img id="img5" src="../source/efem_rides/page5/06_jpg.jpg" alt="">
+														13 de Enero<br />
+							<span>  </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page6">
+														<img id="img6" src="../source/efem_rides/page6/07_jpg.jpg" alt="">
+														25 de Enero<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page7">
+														<img id="img7" src="../source/efem_rides/page7/08_jpg.jpg" alt="">
+														27 de Enero<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page8">
+														<img id="img8" src="../source/efem_rides/page8/09_jpg.jpg" alt="">
+														7 de Febrero<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page9">
+														<img id="img9" src="../source/efem_rides/page9/10_jpg.jpg" alt="">
+														15 de Febrero<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page10">
+														<img id="img10" src="../source/efem_rides/page10/11_jpg.jpg" alt="">
+														12 de Marzo<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page11">
+														<img id="img11" src="../source/efem_rides/page11/12_jpg.jpg" alt="">
+														16 de Marzo<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page12">
+														<img id="img12" src="../source/efem_rides/page12/13_jpg.jpg" alt="">
+														4 de Abril<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page13">
+														<img id="img13" src="../source/efem_rides/page13/14_jpg.jpg" alt="">
+														9 de Abril<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page14">
+														<img id="img14" src="../source/efem_rides/page14/15_jpg.jpg" alt="">
+														12 de Mayo<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page15">
+														<img id="img15" src="../source/efem_rides/page15/16_jpg.jpg" alt="">
+														25 de Mayo<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page16">
+														<img id="img16" src="../source/efem_rides/page16/17_jpg.jpg" alt="">
+														12 de Junio<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page17">
+														<img id="img17" src="../source/efem_rides/page17/18_jpg.jpg" alt="">
+														5 de Julio<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page18">
+														<img id="img18" src="../source/efem_rides/page18/19_jpg.jpg" alt="">
+														20 de Julio<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page19">
+														<img id="img19" src="../source/efem_rides/page19/20_jpg.jpg" alt="">
+														6 de Agosto<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page20">
+														<img id="img20" src="../source/efem_rides/page20/21_jpg.jpg" alt="">
+														9 de Agosto<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page21">
+														<img id="img21" src="../source/efem_rides/page21/22_jpg.jpg" alt="">
+														26 de Agosto<br />
+							<span>  </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page22">
+														<img id="img22" src="../source/efem_rides/page22/23_jpg.jpg" alt="">
+														19 de Septiembre<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page23">
+														<img id="img23" src="../source/efem_rides/page23/24_jpg.jpg" alt="">
+														23 de Septiembre<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page24">
+														<img id="img24" src="../source/efem_rides/page24/25_jpg.jpg" alt="">
+														8 de Octubre<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page25">
+														<img id="img25" src="../source/efem_rides/page25/26_jpg.jpg" alt="">
+														20 de Octubre<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page26">
+														<img id="img26" src="../source/efem_rides/page26/27_jpg.jpg" alt="">
+														Octubre<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page27">
+														<img id="img27" src="../source/efem_rides/page27/28_jpg.jpg" alt="">
+														8 de Noviembre<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page28">
+														<img id="img28" src="../source/efem_rides/page28/29_jpg.jpg" alt="">
+														17 de Noviembre<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page29">
+														<img id="img29" src="../source/efem_rides/page29/30_jpg.jpg" alt="">
+														19 de Diciembre<br />
+							<span>  </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page30">
+														<img id="img30" src="../source/efem_rides/page30/31_jpg.jpg" alt="">
+														23 de Diciembre<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page31">
+														<img id="img31" src="../source/efem_rides/page31/32_jpg.jpg" alt="">
+														29 de Diciembre<br />
+							<span>  </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page32">
+														<img id="img32" src="../source/efem_rides/page32/33_jpg.jpg" alt="">
+														Una ESF en proceso<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page33">
+														<img id="img33" src="../source/efem_rides/page33/37_jpg.jpg" alt="">
+														Extras<br />
+							<span> </span>
+						</a>
+					</li>
+					<li class="menuEntry">
+						<a href="#page34">
+														<img id="img34" src="../source/efem_rides/page34/38_jpg.jpg" alt="">
+														Contraportada<br />
+							<span> </span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<a href="#" data-role="button" data-theme="a" data-icon="back" data-rel="back">Cerrar</a>
+		</div>
+		<div id="indicator"></div>
+	<body>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&"cloudflare.com/email-protection"==a.substr(7 ,31)){s='';j=44;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>

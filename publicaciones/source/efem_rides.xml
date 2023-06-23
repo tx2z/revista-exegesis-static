@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Revista>
+	<Page id="0">
+		<Type><![CDATA[portada]]></Type>
+		<Txt>
+			<TitleDes pos="1"><![CDATA[]]></TitleDes>
+			<TitleDes pos="2"><![CDATA[creado por]]></TitleDes>
+			<TitleDes pos="3"><![CDATA[Blas Bigatti]]></TitleDes>
+			<TitleDes pos="4"><![CDATA[Marc Roca]]></TitleDes>
+		</Txt>
+		<Img>
+			<Image pos="1">../source/efem_rides/page0/00a_jpg.jpg</Image>
+			<Image pos="2">../source/efem_rides/page0/01_indice_jpg.jpg</Image>
+			<Image pos="3">../source/efem_rides/page0/02_jpg.jpg</Image>
+			<Image pos="4">../source/efem_rides/page0/03_jpg.jpg</Image>
+		</Img>
+	</Page>
+	<About>
+		<Type><![CDATA[about]]></Type>
+		<Title><![CDATA[Sobre Efemérides]]></Title>
+		<Txt><![CDATA[<p style="text-align:center"><strong>Recuerda que puedes instalar esta aplicación en tu tablet o dispositivo movil y leerla cuando quieras, incluso estando desconectado de internet.</strong></p>
+<p><strong>Desde un dispositivo Android:</strong></p>
+<p>Sitúate en la portada de la aplicación y pulsa en la estrella que aparece al lado de la barra de navegación. Aparecerá un menú donde podrás añadrir la página a tu "Pantalla de Inicio" o "Home Screen"</p>
+<p><strong>Desde iOS (iPhone o iPad):</strong></p>
+<p>Sitúate en la portada de la aplicación, pulsa en el icono compuesto por un cuado con una flecha y selecciona "Añadir a la pantalla de Inicio" o "Add to Home Screen"</p>
+<br /><br />
+<p><strong>SOBRE EFEMÉRIDES</strong></p>
+<p>© 2012 - Blas Bigatti & Marc Roca</p>
+<p>Todos los contenidos publicados se encuentran protegidos bajo los términos de la licencia Creative Commons Atribución-No Comercial - Sin Obras Derivadas 3.0 Unported.</p>
+<p>Para cualquier uso por fuera de los términos de esta licencia, por favor, contactarse con los autores a blasbigatti@gmail.com ó somemarcus@gmail.com</p>
+<br /><br />
+<p><strong>SOBRE REVISTA EXÉGESIS</strong></p>
+<p>Fundada en 2009 como la única publicación on-line en español centrada en el cómic y la ciencia ficción, Revista Exégesis ofrece en su web (<a href="../" target="_blank">http://revista-exegesis.com</a>) varias publicaciones semanales, compiladas cada dos meses en un número digital – descargable en formatos .pdf y .cbr/.cbz - y esta versión para tablets y dispositivos portátiles en formato html.</p>
+<p>La ciencia ficción, el cómic y la ilustración tienen hoy en Exégesis una publicación rica en matices, con gran capacidad para la reinvención y siempre dispuesta a adaptarse a nuevos retos.</p>]]></Txt>
+	</About>
+	<Page id="1">
+		<Title><![CDATA[Introducción]]></Title>
+		<Type><![CDATA[relato]]></Type>
+		<Autor><![CDATA[(e instrucciones de uso)]]></Autor>
+		<Txt><![CDATA[<p>Las Efemérides Sci-Fi comenzaron a publicarse mensualmente en Revista Exégesis el 20 de julio de 2009, conmemorando los 20 años de la llegada del hombre a la luna. Durante sus primeros seis meses, las Efemérides llevaron las firmas de Blas Bigatti y Simud (este último, alterego dibujante del primero), con una breve colaboración de Antonio HG como colorista. A partir del 27 de enero de 2010, Marc Roca se hizo cargo del dibujo y el color de la tira, que continuó siendo mensual hasta el 12 de mayo de 2011. Desde entonces, las Efemérides continúan publicándose a razón de una por cada número de Revista Exégesis, de salida bimestral.</p>
+<p>Hemos decidido reunir en esta antología las 27 Efemérides publicadas hasta el momento tal como aparecieron originalmente, aunque ordenándolas de acuerdo con las fechas que conmemoran (es decir, comenzando por enero y terminando en diciembre). Esto supuso trastocar el orden en que fueron publicadas. Sin embargo, el número de publicación de cada página puede consultarse en el vértice superior derecho de las viñetas finales, junto a los créditos. De este modo, el lector curioso (o con tiempo para perder) puede optar también por leer las tiras de modo salteado, comenzando por el 20 de julio y rastreando el orden original de las siguientes publicaciones.  </p>
+<p>Los autores</p>]]></Txt>
+		<Url><![CDATA[no]]></Url>
+	</Page>
+	<Page id="2">
+		<Title><![CDATA[El guionista]]></Title>
+		<Type><![CDATA[relato]]></Type>
+		<Autor><![CDATA[Blas Bigatti]]></Autor>
+		<Txt><![CDATA[<p>Las Efemérides Sci-Fi nacieron como una excusa. Al principio, cuando recién comenzaba a echar mano a las artes de guionista, fueron la excusa perfecta para asegurarme una publicación regular en Revista Exégesis. En ese entonces, imposibilitado de asegurarme alguna otra cosa de valor (por ejemplo, la compañía de un aguerrido dibujante), me solazaba tramando historias mínimas, afectadas situaciones reflexivas y rústicos gags humorísticos. Claro que sin la compañía de un aguerrido dibujante (que era lo que en verdad necesitaba), yo mismo debía hacer frente a la tortuosa tarea de dibujar. Así fueron transcurriendo las primeras efemérides, a medio camino entre el solaz y la tortura. Gran tortura, por cierto. Mientras tanto, no sin macabra perversidad, iba tendiendo mi seductora trampa: una tira mensual, breve, variopinta, el sitio perfecto para cualquier dibujante curioso y creativo. Esperé. Eché más cebo a mi emboscada. Finalmente lo vi arrimarse lentamente hasta las páginas virtuales de la revista. Lo vi, incauto e indefenso, alzando migajas por aquí, restregándose las alas por allá. Y entonces tiré del cordel, y ya era mío. La trampa perfecta. Marc Roca creyó aquello que yo mismo no me creía aún: que las efemérides valían la pena. Y de un día para el otro se convirtió en el aguerrido dibujante que tanto había añorado. Gracias a él asistimos a una segunda fundación de las Efemérides, hasta el punto de que hoy es imposible no asociarlas con su trazo indagador y sus amables personajes. Junto a Marc, las efemérides no dejaron de ser una excusa; pero ahora eran la excusa perfecta para ejercitarse y para experimentar. ¿Qué mejor modo de aceitar los mecanismos narrativos que abordar las recurrentes dificultades de contar algo en no más de una página? ¿Qué mejor lugar para poner a prueba recursos nuevos que una historia brevísima que, si falla, pronto se olvida? De puro ensayo y error están hechas las Efemérides (y, por momentos, de puro error solamente). Pero he aprendido a valorar y a querer a estas heterogéneas criaturas. Además, gracias a ellas he tenido la oportunidad de conocer a un gran amigo como Marc (si es que la amistad es posible a través de la web y con un ancho océano de por medio –yo creo que sí). Él es, sin dudas, un dibujante aguerrido, y su coraje nos ha permitido saltar de las breves páginas conmemorativas al tramado de historias más ambiciosas aún. Pero todo comenzó con estas lacónicas páginas mensuales. Y hoy, 27 de enero de 2012 (¡ay, fechas, fechas!) se cumplen dos años desde su refundación, dos años de efemérides compartidas. Como estamos muy bien acostumbrados a los aniversarios, no podíamos dejar de conmemorar un acontecimiento semejante. No es otro el motivo de esta breve antología. En lo que refiere a mi persona, simboliza mi alegría por dos años de continuo solaz, pero ya sin torturas. Con mucho tino, he sabido dejarle la parte tortuosa de este asunto a mi víctima (y amigo) Marc.</p>
+<p> </p>
+<p>Blas Bigatti</p>]]></Txt>
+		<Url><![CDATA[no]]></Url>
+	</Page>
+	<Page id="3">
+		<Title><![CDATA[El dibujante]]></Title>
+		<Type><![CDATA[relato]]></Type>
+		<Autor><![CDATA[Marc Roca]]></Autor>
+		<Txt><![CDATA[<p>Confieso ahora que no me lee nadie que recibir cada guión mensual (ahora bimestral) de Blas para nuestras Efemérides es un momento que cada vez aguardo con mayor curiosidad. No creo haber estado siempre a la altura de esos fantásticos guiones, pero nunca he dejado de disfrutarlos. Además, soy el primero en hacerlo. Rabiad por ello. Y es que no falla: en ese documento siempre hay alguna idea sugerente, algún motivo para esbozar una sonrisa, algún reto visual que me ayudará a trazar un poco mejor la próxima página con la que me enfrente... pues las Efemérides Sci-Fi son un patio de juegos en el que cabe casi todo, una grata excusa para experimentar y divertirse mezclando este medio tan maleable que es el cómic con ese trasfondo infinito que conforman el universo y sus engranajes.</p>
+<p>Por todo ello le estoy muy agradecido a Blas por haber compartido su juguete conmigo desde hace dos años. Puede decirse que ha sido un tiempo bien aprovechado. A lo largo de este período Blas y yo hemos construido soles artificiales y viajado al fondo de un agujero negro. Hemos radiografiado a extraterrestres, cocinado astronautas en microondas alienígenas y sacado a la luz los trapos sucios de un cura medieval. Hemos investigado el suicidio de una mariposa (¿o acaso fue el crimen de un joven científico?), celebrado la enésima victoria del Capitán Ignífugo y viajado hasta el nacimiento del teléfono. Hemos arrojado los relojes al vacío cósmico. Hemos contemplado un mundo de clones y asistido a un fallido noviazgo interplanteario. Hemos estrellado sondas espaciales en el planeta Marte, ¡y también en un plato de sopa! Hemos visitado fábricas explotadoras, centros comerciales futuristas, neveras prehistóricas y médicos robóticos. Nos hemos asombrado ante la exégesis del libro. Hemos charlado en el café La Unión y hemos descorchado cava con nuestros camaradas a bordo de una nave interestelar. Hemos soñado mirando hacia las estrellas.</p>
+<p>Me pregunto cuánto tiempo nos queda por delante en este viaje, y qué cosas extrañas y emocionantes llegaremos a contemplar. Quizá veamos rayos C brillar en la oscuridad cerca de la puerta de Tannhäuser, aunque lo dudo, porque eso está muy visto. Solo sé que pronto Blas me mandará un nuevo guión lleno de complejas viñetas apretujadas. Puede que entonces me desoriente alguno de esos extraños vocablos que jamás han cruzado el Atlántico. Seguramente me retrase con los primeros bocetos y Blas maldiga mis ancestros por ello. Le haré sufrir en legítima defensa. Le mandaré la página el último día del plazo y él se vengará devorando mis detallados fondos con un colosal bocadillo.</p>
+<p>Sé que de ahí saldrá una buena Efeméride. Y sé que luego seguiremos explorando el tejido de la realidad y las infinitas posibilidades de algo tan simple como una página en blanco.</p>
+<p> </p>
+<p>Marc Roca</p>]]></Txt>
+		<Url><![CDATA[no]]></Url>
+	</Page>
+	<Page id="4">
+		<Title><![CDATA[Almanaque 2012]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page4/05_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[no]]></Url>
+	</Page>
+	<Page id="5">
+		<Title><![CDATA[13 de Enero]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[  ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page5/06_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2012/01/efemeride-13-de-enero/]]></Url>
+	</Page>
+	<Page id="6">
+		<Title><![CDATA[25 de Enero]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page6/07_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2011/01/efemeride-25-de-enero/]]></Url>
+	</Page>
+	<Page id="7">
+		<Title><![CDATA[27 de Enero]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page7/08_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/01/efemerides-07-enero-2010/]]></Url>
+	</Page>
+	<Page id="8">
+		<Title><![CDATA[7 de Febrero]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page8/09_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2011/02/efemeride-7-de-febrero/]]></Url>
+	</Page>
+	<Page id="9">
+		<Title><![CDATA[15 de Febrero]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page9/10_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/02/efemerides-15-febrero-2010/]]></Url>
+	</Page>
+	<Page id="10">
+		<Title><![CDATA[12 de Marzo]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page10/11_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/03/efemerides-12-marzo-2010/]]></Url>
+	</Page>
+	<Page id="11">
+		<Title><![CDATA[16 de Marzo]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page11/12_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2011/03/efemeride-16-de-marzo/]]></Url>
+	</Page>
+	<Page id="12">
+		<Title><![CDATA[4 de Abril]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page12/13_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2011/04/efemerides-sci-fi-abril/]]></Url>
+	</Page>
+	<Page id="13">
+		<Title><![CDATA[9 de Abril]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page13/14_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/04/efemerides-9-abril-2010/]]></Url>
+	</Page>
+	<Page id="14">
+		<Title><![CDATA[12 de Mayo]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page14/15_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2011/05/efemeride-12-de-mayo/]]></Url>
+	</Page>
+	<Page id="15">
+		<Title><![CDATA[25 de Mayo]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page15/16_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/05/efemerides-25-mayo-2010/]]></Url>
+	</Page>
+	<Page id="16">
+		<Title><![CDATA[12 de Junio]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page16/17_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/06/efemerides-12-junio-2010/]]></Url>
+	</Page>
+	<Page id="17">
+		<Title><![CDATA[5 de Julio]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page17/18_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/07/efemeride-5-de-julio/]]></Url>
+	</Page>
+	<Page id="18">
+		<Title><![CDATA[20 de Julio]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page18/19_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2009/07/efemerides-01-junio-2009/]]></Url>
+	</Page>
+	<Page id="19">
+		<Title><![CDATA[6 de Agosto]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page19/20_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2009/08/efemerides-02-%e2%80%93-agosto-2009/]]></Url>
+	</Page>
+	<Page id="20">
+		<Title><![CDATA[9 de Agosto]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page20/21_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2011/08/efemeride-9-de-agosto/]]></Url>
+	</Page>
+	<Page id="21">
+		<Title><![CDATA[26 de Agosto]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[  ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page21/22_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/08/efemeride-26-de-agosto/]]></Url>
+	</Page>
+	<Page id="22">
+		<Title><![CDATA[19 de Septiembre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page22/23_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2009/09/efemerides-03-%e2%80%93-septiembre-2009/]]></Url>
+	</Page>
+	<Page id="23">
+		<Title><![CDATA[23 de Septiembre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page23/24_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/09/efemeride-23-de-septiembre/]]></Url>
+	</Page>
+	<Page id="24">
+		<Title><![CDATA[8 de Octubre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page24/25_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2011/10/efemeride-8-de-octubre/]]></Url>
+	</Page>
+	<Page id="25">
+		<Title><![CDATA[20 de Octubre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page25/26_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/10/efemeride-20-de-octubre/]]></Url>
+	</Page>
+	<Page id="26">
+		<Title><![CDATA[Octubre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page26/27_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2009/10/efemerides-04-%e2%80%93-octubre-2009/]]></Url>
+	</Page>
+	<Page id="27">
+		<Title><![CDATA[8 de Noviembre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page27/28_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2009/11/efemerides-05-%E2%80%93-noviembre-2009/]]></Url>
+	</Page>
+	<Page id="28">
+		<Title><![CDATA[17 de Noviembre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page28/29_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/11/efemeride-17-de-noviembre/]]></Url>
+	</Page>
+	<Page id="29">
+		<Title><![CDATA[19 de Diciembre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[  ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page29/30_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2010/12/efemeride-19-de-diciembre/]]></Url>
+	</Page>
+	<Page id="30">
+		<Title><![CDATA[23 de Diciembre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page30/31_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2009/12/efemerides-06-%e2%80%93-diciembre-2009/]]></Url>
+	</Page>
+	<Page id="31">
+		<Title><![CDATA[29 de Diciembre]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[  ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page31/32_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2011/12/efemeride-29-de-diciembre/]]></Url>
+	</Page>
+	<Page id="32">
+		<Title><![CDATA[Una ESF en proceso]]></Title>
+		<Type><![CDATA[relato]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page32/33_jpg.jpg</Image>
+			<Image pos="2">../source/efem_rides/page32/34_jpg.jpg</Image>
+			<Image pos="3">../source/efem_rides/page32/35_jpg.jpg</Image>
+			<Image pos="4">../source/efem_rides/page32/36_jpg.jpg</Image>
+		</Img>
+		<Txt><![CDATA[<p><strong>Efeméride 10:</strong></p>
+<p><strong> </strong></p>
+<p><strong>La labor de Blas:</strong> Primeras notas y diálogos, diagramado de página previo a la escritura del guión y fragmento del guión.</p>
+<p>IMG1</p>
+<p> </p>
+<p><strong>La labor de Marc:</strong> Primeros bocetos de personajes, primeros bocetos de página y lápiz de la página.</p>
+<p>IMG2</p>
+<p> </p>
+<p><strong>La labor de Marc: </strong>Página entintada y página coloreada.</p>
+<p>IMG3</p>
+<p> </p>
+<p><strong>La labor de Blas: </strong>Rotulados y montaje final.</p>
+<p>IMG4</p>]]></Txt>
+		<Url><![CDATA[no]]></Url>
+	</Page>
+	<Page id="33">
+		<Title><![CDATA[Extras]]></Title>
+		<Type><![CDATA[relato]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page33/37_jpg.jpg</Image>
+		</Img>
+		<Txt><![CDATA[<p>Portada 2009 para las Efemérides, por Simud y Wallpaper de la Efeméride 11, por Marc.</p>
+<p>IMG1</p>]]></Txt>
+		<Url><![CDATA[no]]></Url>
+	</Page>
+	<Page id="34">
+		<Title><![CDATA[Contraportada]]></Title>
+		<Type><![CDATA[relato]]></Type>
+		<Autor><![CDATA[ ]]></Autor>
+		<Img>
+			<Image pos="1">../source/efem_rides/page34/38_jpg.jpg</Image>
+		</Img>
+		<Txt><![CDATA[<p>IMG1</p>
+<p><em>“nuestra hipótesis es que la ciencia tiene mucho de entretenido. Hasta donde pudimos comprobar, ésta resulta ser una hipótesis coherente con las actuales leyes de la física... con las que pudimos entender, al menos.”</em></p>
+<p><strong>- Ember Brown</strong></p>]]></Txt>
+		<Url><![CDATA[no]]></Url>
+	</Page>
+</Revista>

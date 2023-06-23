@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Revista>
+	<Page id="0">
+		<Type><![CDATA[portada]]></Type>
+		<Txt>
+			<TitleDes pos="1"><![CDATA[PRUEBA DE PUBLICACIÓN]]></TitleDes>
+			<TitleDes pos="2"><![CDATA[con las imágenes de...]]></TitleDes>
+			<TitleDes pos="3"><![CDATA[EFEMÉRIDES]]></TitleDes>
+			<TitleDes pos="4"><![CDATA[¿no queda mal no?]]></TitleDes>
+		</Txt>
+		<Img>
+			<Image pos="1">../source/prueba/page0/00a_jpg.jpg</Image>
+			<Image pos="2">../source/prueba/page0/05_jpg.jpg</Image>
+			<Image pos="3">../source/prueba/page0/00a_jpg.jpg</Image>
+			<Image pos="4">../source/prueba/page0/38_jpg.jpg</Image>
+		</Img>
+	</Page>
+	<About>
+		<Type><![CDATA[about]]></Type>
+		<Title><![CDATA[Sobre Exégesis]]></Title>
+		<Txt><![CDATA[						<p>
+							Fundada en 2009 como la única publicación on-line en español centrada en el cómic y la ciencia ficción, Revista Exégesis ofrece en su web (<a href="http://revista-exegesis.com" target="_blank">http://revista-exegesis.com</a>) varias publicaciones semanales, compiladas cada dos meses en un número digital – descargable en formatos .pdf y .cbr/.cbz - y esta versión para tablets y dispositivos portátiles en formato html.
+						</p>
+						<p>
+							Desde sus inicios, Exégesis destaca por la ingente cantidad de autores que colaboran en sus páginas, procedentes de diversos países situados a ambos lados del océano Atlántico. Fue en la segunda etapa de la revista cuando se extendieron sus fronteras al incluir trabajos de autores de habla inglesa; procedentes de Reino Unido, Estados Unidos y Australia. Asimismo se consolidó el actual canon de calidad, manteniendo un claro rigor en las maquetaciones de las compilaciones, como en los contenidos de los proyectos a publicar.
+						</p>
+						<p>
+							En Exégesis confluyen autores de diversas disciplinas del arte escrito e ilustrado, que son quienes dan vida realmente a la revista. En ella se encuentran escritores, guionistas, dibujantes, ilustradores, entintadores, coloristas, rotulistas y maquetadores. Esto hace que la revista ofrezca un interesante punto de encuentro en el que diferentes creativos pueden promocionarse y buscar colaboradores para nuevos proyectos.
+						</p>
+						<p>
+							La ciencia ficción, el cómic y la ilustración tienen hoy en Exégesis una publicación rica en matices, con gran capacidad para la reinvención y siempre dispuesta a adaptarse a nuevos retos.
+						</p>
+					]]></Txt>
+	</About>
+	<Page id="1">
+		<Title><![CDATA[Editorial ]]></Title>
+		<Type><![CDATA[editorial]]></Type>
+		<Autor><![CDATA[Por: Jesús Pérez]]></Autor>
+		<Img>
+			<Image pos="1">../source/prueba/page1/00b_jpg.jpg</Image>
+			<Image pos="2">../source/prueba/page1/05_jpg.jpg</Image>
+		</Img>
+		<Txt><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra placerat fermentum. Donec pretium dapibus placerat. Curabitur vel nunc quis nunc molestie pharetra. Maecenas consectetur velit id erat ullamcorper vehicula. Donec sollicitudin sem nec felis volutpat blandit sit amet vitae tortor. Fusce placerat est nec nulla viverra ultrices. Quisque gravida consectetur nunc, vitae pellentesque massa ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque eget nisi nisl. Nunc sollicitudin fringilla felis, vel rutrum enim pulvinar vitae. Vivamus felis lacus, scelerisque nec commodo vitae, lacinia eu orci. Proin bibendum magna vitae sapien euismod auctor. Donec pretium odio quis dolor vehicula laoreet et et urna. Morbi lacinia, urna sed semper aliquet, felis risus bibendum quam, vitae feugiat dui felis sit amet odio.</p>
+<p>IMG1</p>
+<p>Aenean sed nulla eget dui vestibulum ultricies. Integer nec ipsum sit amet libero auctor pellentesque id et erat. Pellentesque imperdiet fringilla odio, vel elementum dui vestibulum in. Morbi at nisi eros. Aliquam erat volutpat. Vivamus dapibus euismod neque, in sollicitudin sapien pulvinar ut. Aenean vitae lorem urna. Pellentesque quis quam vel purus semper imperdiet. Integer vel nulla nec leo condimentum volutpat vitae in risus. Duis vitae augue ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<p>Suspendisse ipsum lacus, condimentum eu pulvinar non, luctus vitae lorem. Aliquam eget aliquam metus. Mauris ipsum diam, tincidunt sed consectetur non, laoreet vitae velit. Fusce gravida augue id justo convallis commodo. Etiam ultrices sapien sed dolor egestas id porttitor odio ultrices. Nulla nec erat odio. Suspendisse ultrices sapien at justo euismod porta. Nulla aliquam ullamcorper ligula vitae venenatis. Nulla suscipit neque sed nunc facilisis feugiat. Proin vitae metus leo, scelerisque euismod lorem.</p>
+<p>In dapibus mattis lectus, feugiat luctus nisl accumsan non. In hac habitasse platea dictumst. Etiam eu orci quis justo feugiat mollis. Fusce id ligula nibh, sed tempor orci. Phasellus vestibulum pharetra nunc, eget laoreet diam eleifend vitae. Sed rutrum lorem sed lorem volutpat pulvinar. Nullam orci nunc, tempor at laoreet nec, vulputate non eros. Morbi est purus, pulvinar quis commodo imperdiet, aliquet nec ligula. In vel leo velit, id fermentum odio. Ut tincidunt ultricies egestas. Duis eu mauris et purus aliquet eleifend. Donec eu dui sit amet mauris auctor aliquam. Suspendisse in lacus mi, ut cursus turpis.</p>
+<p>IMG2</p>
+<p>Aenean nec quam in leo accumsan tristique non sit amet metus. Sed sodales lobortis diam non congue. Morbi tristique risus vitae nibh varius vestibulum. In iaculis tristique nunc, eu gravida augue commodo eget. Morbi ut quam sed purus sagittis vestibulum. Nullam vel lorem in mi dictum rhoncus. Maecenas nisi magna, dignissim in hendrerit eget, suscipit vel quam.</p>]]></Txt>
+		<Url><![CDATA[http://revista-exegesis.com/2012/04/efemeride-3-de-abril/]]></Url>
+	</Page>
+	<Page id="2">
+		<Title><![CDATA[Efemeride prueba 1]]></Title>
+		<Type><![CDATA[comic]]></Type>
+		<Autor><![CDATA[Guión: Blas Bigatti | Dibujo: Marc Roca]]></Autor>
+		<Img>
+			<Image pos="1">../source/prueba/page2/06_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2012/04/efemeride-3-de-abril/]]></Url>
+	</Page>
+	<Page id="3">
+		<Title><![CDATA[Efemeride 2 (varias páginas)]]></Title>
+		<type><![CDATA[comic]]></type>
+		<Autor><![CDATA[Guión: Blas Bigatti | Dibujo: Marc Roca]]></Autor>
+		<Img>
+			<Image pos="1">../source/prueba/page3/12_jpg.jpg</Image>
+			<Image pos="2">../source/prueba/page3/13_jpg.jpg</Image>
+			<Image pos="3">../source/prueba/page3/14_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2012/04/efemeride-3-de-abril/]]></Url>
+	</Page>
+	<Page id="4">
+		<Title><![CDATA[Un relato de mentira]]></Title>
+		<type><![CDATA[relato]]></type>
+		<Autor><![CDATA[Lorem Ipsum]]></Autor>
+		<Img>
+			<Image pos="1">../source/prueba/page4/00b_jpg.jpg</Image>
+		</Img>
+		<Txt><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra placerat fermentum. Donec pretium dapibus placerat. Curabitur vel nunc quis nunc molestie pharetra. Maecenas consectetur velit id erat ullamcorper vehicula. Donec sollicitudin sem nec felis volutpat blandit sit amet vitae tortor. Fusce placerat est nec nulla viverra ultrices. Quisque gravida consectetur nunc, vitae pellentesque massa ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque eget nisi nisl. Nunc sollicitudin fringilla felis, vel rutrum enim pulvinar vitae. Vivamus felis lacus, scelerisque nec commodo vitae, lacinia eu orci. Proin bibendum magna vitae sapien euismod auctor. Donec pretium odio quis dolor vehicula laoreet et et urna. Morbi lacinia, urna sed semper aliquet, felis risus bibendum quam, vitae feugiat dui felis sit amet odio.</p>
+<p>Aenean sed nulla eget dui vestibulum ultricies. Integer nec ipsum sit amet libero auctor pellentesque id et erat. Pellentesque imperdiet fringilla odio, vel elementum dui vestibulum in. Morbi at nisi eros. Aliquam erat volutpat. Vivamus dapibus euismod neque, in sollicitudin sapien pulvinar ut. Aenean vitae lorem urna. Pellentesque quis quam vel purus semper imperdiet. Integer vel nulla nec leo condimentum volutpat vitae in risus. Duis vitae augue ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<p>&nbsp;</p>
+<p>SE PUEDEN METER IM&Aacute;GENES EN MEDIO DEL TEXTO :)</p>
+<p>IMG1</p>
+<p>Suspendisse ipsum lacus, condimentum eu pulvinar non, luctus vitae lorem. Aliquam eget aliquam metus. Mauris ipsum diam, tincidunt sed consectetur non, laoreet vitae velit. Fusce gravida augue id justo convallis commodo. Etiam ultrices sapien sed dolor egestas id porttitor odio ultrices. Nulla nec erat odio. Suspendisse ultrices sapien at justo euismod porta. Nulla aliquam ullamcorper ligula vitae venenatis. Nulla suscipit neque sed nunc facilisis feugiat. Proin vitae metus leo, scelerisque euismod lorem.</p>
+<p>In dapibus mattis lectus, feugiat luctus nisl accumsan non. In hac habitasse platea dictumst. Etiam eu orci quis justo feugiat mollis. Fusce id ligula nibh, sed tempor orci. Phasellus vestibulum pharetra nunc, eget laoreet diam eleifend vitae. Sed rutrum lorem sed lorem volutpat pulvinar. Nullam orci nunc, tempor at laoreet nec, vulputate non eros. Morbi est purus, pulvinar quis commodo imperdiet, aliquet nec ligula. In vel leo velit, id fermentum odio. Ut tincidunt ultricies egestas. Duis eu mauris et purus aliquet eleifend. Donec eu dui sit amet mauris auctor aliquam. Suspendisse in lacus mi, ut cursus turpis.</p>
+<p>Aenean nec quam in leo accumsan tristique non sit amet metus. Sed sodales lobortis diam non congue. Morbi tristique risus vitae nibh varius vestibulum. In iaculis tristique nunc, eu gravida augue commodo eget. Morbi ut quam sed purus sagittis vestibulum. Nullam vel lorem in mi dictum rhoncus. Maecenas nisi magna, dignissim in hendrerit eget, suscipit vel quam.</p>]]></Txt>
+		<Url><![CDATA[http://revista-exegesis.com/2012/04/efemeride-3-de-abril/]]></Url>
+	</Page>
+	<Page id="5">
+		<Title><![CDATA[Efemeride 4]]></Title>
+		<type><![CDATA[comic]]></type>
+		<Autor><![CDATA[Guión: Blas Bigatti | Dibujo: Marc Roca]]></Autor>
+		<Img>
+			<Image pos="1">../source/prueba/page5/26_jpg.jpg</Image>
+		</Img>
+		<Url><![CDATA[http://revista-exegesis.com/2012/04/efemeride-3-de-abril/]]></Url>
+	</Page>
+	<Page id="6">
+		<Title><![CDATA[Ejemplo de baulera]]></Title>
+		<type><![CDATA[baulera]]></type>
+		<Autor><![CDATA[Gastón]]></Autor>
+		<Img>
+			<Image pos="1">../source/prueba/page6/02_jpg.jpg</Image>
+			<Image pos="2">../source/prueba/page6/01_jpg.jpg</Image>
+		</Img>
+		<Txt><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra placerat fermentum. Donec pretium dapibus placerat. Curabitur vel nunc quis nunc molestie pharetra. Maecenas consectetur velit id erat ullamcorper vehicula. Donec sollicitudin sem nec felis volutpat blandit sit amet vitae tortor. Fusce placerat est nec nulla viverra ultrices. Quisque gravida consectetur nunc, vitae pellentesque massa ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque eget nisi nisl. Nunc sollicitudin fringilla felis, vel rutrum enim pulvinar vitae. Vivamus felis lacus, scelerisque nec commodo vitae, lacinia eu orci. Proin bibendum magna vitae sapien euismod auctor. Donec pretium odio quis dolor vehicula laoreet et et urna. Morbi lacinia, urna sed semper aliquet, felis risus bibendum quam, vitae feugiat dui felis sit amet odio.</p>
+<p>IMG1</p>
+<p>Aenean sed nulla eget dui vestibulum ultricies. Integer nec ipsum sit amet libero auctor pellentesque id et erat. Pellentesque imperdiet fringilla odio, vel elementum dui vestibulum in. Morbi at nisi eros. Aliquam erat volutpat. Vivamus dapibus euismod neque, in sollicitudin sapien pulvinar ut. Aenean vitae lorem urna. Pellentesque quis quam vel purus semper imperdiet. Integer vel nulla nec leo condimentum volutpat vitae in risus. Duis vitae augue ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<p>Suspendisse ipsum lacus, condimentum eu pulvinar non, luctus vitae lorem. Aliquam eget aliquam metus. Mauris ipsum diam, tincidunt sed consectetur non, laoreet vitae velit. Fusce gravida augue id justo convallis commodo. Etiam ultrices sapien sed dolor egestas id porttitor odio ultrices. Nulla nec erat odio. Suspendisse ultrices sapien at justo euismod porta. Nulla aliquam ullamcorper ligula vitae venenatis. Nulla suscipit neque sed nunc facilisis feugiat. Proin vitae metus leo, scelerisque euismod lorem.</p>
+<p>In dapibus mattis lectus, feugiat luctus nisl accumsan non. In hac habitasse platea dictumst. Etiam eu orci quis justo feugiat mollis. Fusce id ligula nibh, sed tempor orci. Phasellus vestibulum pharetra nunc, eget laoreet diam eleifend vitae. Sed rutrum lorem sed lorem volutpat pulvinar. Nullam orci nunc, tempor at laoreet nec, vulputate non eros. Morbi est purus, pulvinar quis commodo imperdiet, aliquet nec ligula. In vel leo velit, id fermentum odio. Ut tincidunt ultricies egestas. Duis eu mauris et purus aliquet eleifend. Donec eu dui sit amet mauris auctor aliquam. Suspendisse in lacus mi, ut cursus turpis.</p>
+<p>Aenean nec quam in leo accumsan tristique non sit amet metus. Sed sodales lobortis diam non congue. Morbi tristique risus vitae nibh varius vestibulum. In iaculis tristique nunc, eu gravida augue commodo eget. Morbi ut quam sed purus sagittis vestibulum. Nullam vel lorem in mi dictum rhoncus. Maecenas nisi magna, dignissim in hendrerit eget, suscipit vel quam.</p>
+<p>IMG2</p>]]></Txt>
+		<Url><![CDATA[http://revista-exegesis.com/2012/04/efemeride-3-de-abril/]]></Url>
+	</Page>
+</Revista>

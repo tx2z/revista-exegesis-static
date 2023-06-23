@@ -1,0 +1,180 @@
+[30-May-2012 10:46:02] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[06-Jun-2012 02:24:14] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[07-Jun-2012 01:55:27] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[07-Jun-2012 02:06:43] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[07-Jun-2012 03:02:05] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[08-Jun-2012 12:24:46] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[08-Jun-2012 12:41:59] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[14-Jun-2012 07:55:02] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[14-Jun-2012 11:38:30] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[15-Jun-2012 01:27:45] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[15-Jun-2012 05:15:16] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[20-Jul-2012 04:54:23] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[24-Jul-2012 11:58:45] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[01-Aug-2012 10:41:42] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[02-Aug-2012 08:40:02] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[03-Aug-2012 05:44:50] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[03-Aug-2012 08:11:29] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[03-Aug-2012 10:02:20] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[03-Aug-2012 10:17:01] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[08-Aug-2012 11:35:47] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[14-Aug-2012 08:21:33] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[14-Aug-2012 09:34:28] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[16-Aug-2012 05:22:42] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[20-Aug-2012 10:27:41] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[21-Aug-2012 06:13:53] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[22-Aug-2012 10:31:28] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[22-Aug-2012 10:31:54] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[03-Sep-2012 06:34:32] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[05-Sep-2012 02:02:10] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11
+[05-Sep-2012 09:12:31] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(../source/15) [<a href='recursivedirectoryiterator.--construct'>recursivedirectoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php:11
+Stack trace:
+#0 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(11): RecursiveDirectoryIterator->__construct('../source/15')
+#1 /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php(30): create_manifest()
+#2 {main}
+  thrown in /home/tx2z/public_html/revista-exegesis.com/publicaciones/prueba/manifest.php on line 11

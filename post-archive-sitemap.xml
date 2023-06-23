@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Este mapa del sitio lo generó All in One SEO vv4.4.0.1 dinámicamente el 23 junio, 2023 a las 14:49 - el plugin SEO original para WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="https://revista-exegesis.com/default.xsl?sitemap=post-archive"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+	<url>
+		<loc><![CDATA[https://revista-exegesis.com/autores/]]></loc>
+		<lastmod><![CDATA[2015-03-09T17:59:56+00:00]]></lastmod>
+		<changefreq><![CDATA[monthly]]></changefreq>
+		<priority><![CDATA[0.5]]></priority>
+	</url>
+</urlset>

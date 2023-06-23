@@ -1,0 +1,7 @@
+{
+    "comic": {
+        "title": "test example",
+        "id": "123456789",
+		"images": ["2059_1_1ok.jpg","2059_1_2ok.jpg","2059_1_3ok.jpg","2059_1_4ok.jpg","2059_1_5ok.jpg","2059_1_6ok.jpg"]
+    }
+}
