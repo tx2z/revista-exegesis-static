@@ -1,5 +1,7 @@
 # revista-exegesis-static
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2972d73c-d3ff-4af0-9b2e-a9ae8525733a/deploy-status)](https://app.netlify.com/sites/revista-exegesis/deploys)
+
 Visita  [https://revista-exegesis.com](revista-exegesis.com)
 
 Surgida en 2009 como espacio digital especializado en cómics de ciencia ficción, en su última etapa Exégesis abrió a todos los géneros y ofreció un espacio para la narrativa visual sin fronteras, gratuito y de alta calidad.
